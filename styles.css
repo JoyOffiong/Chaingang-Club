@@ -1,0 +1,360 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: box-sizing;
+}
+img{
+    width: 100%;
+    height: 100%;
+}
+body{
+    background-color: hsl(240, 25%, 95%);
+    position: relative;
+    font-family: 'Poppins', sans-serif;
+    overflow-x: hidden;
+}
+.first-wrap{
+    background-image: linear-gradient(rgba(0,0,0,0.40),rgba(0,0,0,0.4)),  url(/images/munbaik-cycling-clothing-iZJrOqEaPNI-unsplash.jpg);
+    background-repeat: no-repeat;
+    height: 100vh;
+    background-position: center;
+    background-size: cover;
+
+}
+.nav-links{
+    display: flex;
+    width: 60%;
+    margin: auto;
+    justify-content: space-between;
+    align-items: center;
+    padding:2% ;
+    list-style: none;
+}
+a{
+    text-decoration: none;
+    color: hsl(240, 7%, 81%);
+    transform: scale(1.1);
+    transition: 0.7s ease;
+}
+a:hover{
+    color: #34ee34;
+    transform: scale(1);
+}
+.mobile-links{
+    display: none;
+}
+.nav-toggle, .nav-toggle2{
+    display: none;
+}
+.mobilelogo{
+    display: none;
+}
+.hero-section{
+   width: 60%;
+   margin: auto;
+   margin-top: 20%;
+    text-align: center;
+    
+}
+.hero-section h3{
+    color:hsl(240, 22%, 95%);
+    font-size: 8vmin;
+    font-style: italic;
+    
+}
+
+
+
+/* second-wrapper styling */
+.second-wrap{
+    /* background-color:hsl(233, 8%, 62%); */
+    margin: auto;
+    padding: 5%;
+    color: black;
+    padding-bottom: 2%;
+}
+.vision-mission{
+    /* width: 40%; */
+    display: flex;
+    justify-content: space-between;
+}
+.vision{
+   
+    /* border: 2px solid green; */
+    box-shadow: 0px 1px 1px rgba(27, 9, 9, 0.2), -0px -1px 1px rgba(27, 9, 9, 0.2);
+    margin-bottom: 5%;
+    text-align: center;
+    width: 45%;
+}
+h3{
+    padding: 2%;
+    font-size: 24px;
+
+}
+p{
+   line-height: 40px;
+   padding: 2%;
+   text-align: left;
+}
+
+.logo{
+    width: 50%;
+    /* height: 70vh; */
+}
+.logo{
+    object-fit: cover;
+    object-position: center;
+}
+
+
+
+/* thirdd-wrapper */
+.third-wrap{
+    /* background-image: linear-gradient(rgba(0,0,0,0.40),rgba(0,0,0,0.4)), url(/images/IMG-20220612-WA0042.jpg); */
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    background-color: hsl(240, 25%, 95%);
+    padding: 5%;
+    padding-top: 0;
+}
+.heading{
+    text-align: center;
+    margin-bottom: 2%;
+}
+.heading h3{
+    font-size: 40px;
+}
+
+.objectives-wrap{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+.objective{
+    width: 24%;
+    border: 2px solid rgb(184, 234, 184);
+    background-color: hsl(240, 22%, 95%);
+    color:black;
+    box-shadow: 0px 1px 1px rgba(27, 9, 9, 0.2), -0px -1px 1px rgba(249, 19, 19, 0.2);
+
+}
+
+
+/* values */
+.values{
+    background-image: linear-gradient(rgba(0,0,0,0.60),rgba(0,0,0,0.6)), url(/images/martin-magnemyr-nGt71kRwUOw-unsplash.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: hsl(240, 22%, 95%);
+}
+.values-wrap{
+    width: 90%;
+    margin: auto;
+    /* padding-     top: 2%; */
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+}
+.value{
+    width: 43%;
+    box-shadow: 0px 1px 1px rgba(27, 9, 9, 0.2), -0px -1px 1px rgba(27, 9, 9, 0.2);
+    margin-bottom: 5%;
+    border: 2px solid rgb(184, 234, 184);
+    text-align: left;
+}
+.company-logo p{
+    text-align: left;
+}
+
+.last-wrap{
+    background-color:hsl(240, 7%, 81%);
+    color:  #000  ;
+    /* height: 60vh; */
+    padding:  0 5%;
+}
+.section-wrap p{
+    line-height: 18px;
+    padding: 2%;
+    text-align:left;
+    font-size: 17px;
+}
+.section-wrap{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.left-part{
+    width: 50%;
+}
+.left-part i{
+    padding-right: 1%;
+    color: black;
+}
+.left-part :first-child{
+    font-weight: bold;
+}
+.right-part{
+    width: 30%;
+}
+
+.company-logo{
+    width: 100%;
+    height: 40vh;
+}
+.comopany-logo img{
+    object-fit: cover;
+    object-position: center;
+}
+.media-wrap, .media-wrap p{
+ text-align: center;
+}
+.media-wrap p{
+    padding-bottom: 0;
+}
+.media-wrap i{
+    color:black;
+    padding: 5px;
+    font-size: 20px;
+    padding-top: 0;
+}
+.lastline span{
+    font-size: 30px;
+} 
+.lastline span i{
+    font-size: 7px;
+}
+
+
+/* media queries */
+@media(max-width:1200px){
+    .nav-links{
+        display: none;
+    }
+    .mobileheader {
+        display: flex;
+        justify-content: space-between;
+        padding: 2% 0;
+        padding-left:2%;
+        align-items: center;
+        justify-content: space-between;
+      }
+
+      .mobilelogo, .nav-toggle{
+        display: block;
+      }
+      .mobilelogo{
+          color: hsl(240, 7%, 81%);
+      }
+      .nav-toggle{
+        cursor: pointer;
+        margin: 0rem 1rem;
+        display: block;
+        border-radius: none;
+        width: 2rem;
+        border: none;
+        background-color: transparent;
+        aspect-ratio: 0.5;
+        color: hsl(240, 7%, 81%);
+        transition: 0.3s ease;
+      }
+      button i{
+        color:hsl(240, 7%, 81%);
+      }
+      .nav-toggle, .nav-toggle2 i{
+        font-size: 23px;
+      }
+      .nav-toggle2{
+        cursor: pointer;
+        display: none;
+        border-radius: none;
+        border: none;
+        margin: 0rem 1rem;
+        background-color: transparent;
+        aspect-ratio: 0.5;
+        width: 2rem;
+      }
+    
+    nav{
+      margin-left: 0;
+    }
+      .mobile-links{
+        position: absolute;
+        flex-direction:column;
+        right: 0px;
+        align-items: none;
+        text-align: center;
+        padding-top: 10%;
+        height: 100vh;
+        width: 100%;
+        line-height: 3rem;
+        font: bold;
+        display: block;
+        transform: translateX(100%);
+        transition:700ms ease;
+        /* background-color:black; */
+        margin-right: 0;
+        overflow-x: hidden;
+        z-index: 39;
+      }
+      .hero-section{
+        width: 90%;
+        margin: auto;
+        margin-top: 20%;
+         text-align: center;
+         
+     }
+      .hero-section h3{
+        color:hsl(240, 7%, 81%);
+        font-size: 7vmin;
+        
+    }
+    .heading h3{
+        font-size: 30px;
+    flex-wrap: wrap;
+    }
+    .objective{
+        width: 45%;
+        margin-bottom: 5%;
+    }
+    
+.section-wrap{
+    padding-top: 2%;
+    display: block;
+}
+.left-part{
+    width: 100%;
+}
+.right-part{
+    display: none;
+}
+}
+@media(max-width:768px){
+    .hero-section{
+        width: 90%;
+        margin: auto;
+        margin-top: 50%;
+         text-align: center;
+    }
+
+    .vision-mission{
+        display: block;
+    }
+    .vision{
+        width: 100%;
+    }
+    .objective{
+        width: 100%;
+        margin-bottom:5%;
+    }
+    .values-wrap{
+        flex-direction: column;
+        flex-wrap:nowrap;
+    }
+    .value{
+        width: 90%;
+} 
+}
