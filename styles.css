@@ -194,8 +194,8 @@ p{
     padding-right: 1%;
     color: black;
 }
-.left-part :first-child{
-    font-weight: bold;
+.left-part p{
+    font-size: 15px;
 }
 .right-part{
     width: 30%;
