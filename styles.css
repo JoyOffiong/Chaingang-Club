@@ -35,7 +35,10 @@ header{
   height: 60px;
 }
 .company-logo img, .mobilelogo img{
-  object-fit: contain;
+  object-fit: cover;
+ border-radius: 50%;
+ height: 70px;
+ width: 70px;
 }
 nav{
   width: 50%;
