@@ -321,7 +321,7 @@ margin: 0 auto;
     align-items: none;
     text-align: center;
     padding-top: 10%;
-    height: 100vh;
+    height: 50vh;
     width: 100%;
     line-height: 3rem;
     font: bold;
@@ -330,6 +330,7 @@ margin: 0 auto;
     transition: 700ms ease;
     margin-right: 0;
     overflow-x: hidden;
+    background-color: rgb(81, 79, 79);
     z-index: 39;
   }
   .hero-section {
