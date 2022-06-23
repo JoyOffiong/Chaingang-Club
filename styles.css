@@ -175,8 +175,11 @@ h3 {
   background-size: cover;
   color: hsl(240, 22%, 95%);
 }
+.value-heading{
+  margin-bottom: 0;
+}
 .values-wrap {
-  width: 90%;
+  width: 95%;
   margin: auto;
   display: flex;
   flex-direction: row;
@@ -186,13 +189,13 @@ h3 {
 
 }
 .value {
-  width: 45%;
+  width: 43%;
   box-shadow: 0px 1px 1px rgba(27, 9, 9, 0.2), -0px -1px 1px rgba(27, 9, 9, 0.2);
   margin-bottom: 5%;
   border: 2px solid rgb(184, 234, 184);
   text-align: left;
-  padding: 1.5%;
-  height: 47vh;
+  line-height: 40px;
+  padding: 3%;
 }
 
 
@@ -274,41 +277,43 @@ margin: 0 auto;
 .company-logo{
   display: none;
 }
-
+.buttons{
+  z-index: 30;
+  padding: 0;
+  margin-right: 2%;
+  border:  2px solid rgb(220, 231, 233);
+}
   .mobilelogo,
   .nav-toggle {
     display: block;
-  }
-  .mobilelogo {
-    color: hsl(240, 7%, 81%);
+    z-index: 26;
   }
   .nav-toggle {
     cursor: pointer;
-    margin: 0rem 1rem;
+    /* margin: 0rem 1rem; */
     display: block;
     border-radius: none;
     width: 2rem;
     border: none;
     background-color: transparent;
-    aspect-ratio: 0.5;
-    color: hsl(240, 7%, 81%);
+    aspect-ratio: 0.9;
     transition: 0.3s ease;
   }
   button i {
-    color: hsl(240, 7%, 81%);
+    color: rgb(78, 248, 78);
   }
   .nav-toggle,
   .nav-toggle2 i {
     font-size: 23px;
+  
   }
   .nav-toggle2 {
     cursor: pointer;
     display: none;
     border-radius: none;
     border: none;
-    margin: 0rem 1rem;
     background-color: transparent;
-    aspect-ratio: 0.5;
+    aspect-ratio: 0.9;
     width: 2rem;
   }
 
@@ -318,11 +323,12 @@ margin: 0 auto;
   .mobile-links {
     position: absolute;
     flex-direction: column;
+    top: 0;
     right: 0px;
     align-items: none;
     text-align: center;
     padding-top: 10%;
-    height: 50vh;
+    height: 100vh;
     width: 100%;
     line-height: 3rem;
     font: bold;
@@ -332,7 +338,8 @@ margin: 0 auto;
     margin-right: 0;
     overflow-x: hidden;
     background-color: hsl(240, 7%, 81%);;
-    z-index: 39;
+    z-index: 20;
+
   }  
   .mobile-links li a {
     color: black;
